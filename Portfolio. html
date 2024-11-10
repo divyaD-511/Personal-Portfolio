@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>DivyaChandrika Dara</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" aria-label="About section">About</a></li>
+                <li><a href="#skills" aria-label="Skills section">Skills</a></li>
+                <li><a href="#projects" aria-label="Projects section">Projects</a></li>
+                <li><a href="#contact" aria-label="Contact section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm DivyaChandrika Dara.
+           Currently pursuing a B.Tech in Computer Science and Engineering.
+           I have recently started working on Frontend Development,
+           and I enjoy turning small ideas into functional designs.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A modern portfolio site with a responsive design.</p>
+        </div>
+        <div class="project">
+            <h3>Image Gallery</h3>
+            <p>An interactive image gallery showcasing skincare products.</p>
+        </div>
+        <div class="project">
+            <h3>Calculator</h3>
+            <p>A calculator featuring basic arithmetic functions.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:divyadara111@gmail.com">divyadara111@gmail.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 DivyaChandrika Dara</p>
+    </footer>
+</body>
+</html>
